@@ -1,0 +1,20 @@
+# SMTP credentials (user should copy example file)
+config/.msmtprc
+~/.msmtprc
+~/.msmtp.log
+
+# Log files
+logs/banned_ips.txt
+/var/log/banned_ips.txt
+*.log
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# Temp or backup
+*.tmp
+*.bak
+*.count
+*.pid
