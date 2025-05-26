@@ -1,0 +1,2 @@
+30 16 * * * uuencode /var/log/banned_ips.txt banned_ips.txt | mail -s "SSH Banned IP Report" your_email@gmail.com
+# set to send at 16:30 
