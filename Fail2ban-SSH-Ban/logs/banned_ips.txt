@@ -1,0 +1,2 @@
+# example file content
+[2025-05-25 15:00] Banned IP: 192.168.1.100
