@@ -1,0 +1,9 @@
+[sshd]
+enabled = true
+port = ssh
+logpath = /var/log/auth.log
+maxretry = 3
+bantime = 600
+findtime = 600
+action = iptables[name=SSH, port=ssh, protocol=tcp]
+         ban-logger
